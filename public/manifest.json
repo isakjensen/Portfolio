@@ -1,0 +1,9 @@
+{
+  "short_name": "Isak Jensen",
+  "name": "Create React App Sample",
+  "icons": [ ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0099FF",
+  "background_color": "#F3F4F6"
+}

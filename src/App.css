@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+/* Icons */
+@import url('https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* .divider {
+    height: 100%;
+
+    background: url('./divider.png');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 8px 0px 16px 0px;
+    padding: 0px 0px 0px 16px;
+    color: #9CA3AF;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #374151;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+}
+
+ul li span {
+    /* color: #10B981; */
+    font-weight: 500;
+}
