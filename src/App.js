@@ -20,7 +20,7 @@ function App() {
             </nav>
 
             {/* Title */}
-            <div className="flex-grow flex flex-col justify-center gap-3 my-auto text-center px-2 md:px-24 lg:px-52 xl:px-60 2xl:px-80">
+            <div className="flex-grow flex flex-col justify-center gap-3 my-auto text-center px-2 md:px-24 lg:px-52 xl:px-60 2xl:px-80 3xl:px-112">
                 <div className="hidden xl:block relative font-bold text-gray-200 font-abril tracking-widest transform text-9xl top-10 rotate-12">Junior Web Developer</div>
                 <div className="xl:relative text-8xl font-caveat bottom-40">Isak Jensen</div>
             </div>
@@ -31,7 +31,7 @@ function App() {
         <main className="flex flex-col flex-grow">
 
             {/* Career Section */}
-            <section id="career" className="flex flex-col pt-12 pb-24 gap-8 px-6 md:px-24 lg:px-26 xl:px-36 2xl:px-80">
+            <section id="career" className="flex flex-col pt-12 pb-24 gap-8 px-6 md:px-24 lg:px-26 xl:px-36 2xl:px-80 3xl:px-102">
                 <div className="text-gray-900 hover:text-gray-700 transition duration-200 ease-in-out">
                     <a className="flex flex-row float-left group" href="https://linkedin.com/in/isakjensen" target="_blank" rel="noreferrer">
                         <h1 className="font-playfair text-3xl">Career</h1>
@@ -90,7 +90,7 @@ function App() {
 
             {/* About Section */}
             <div className="bg-hl flex flex-col">
-                <section id="about" className="my-20 flex flex-col py-12 gap-8 px-2 md:px-24 lg:px-36 xl:px-60 2xl:px-80">
+                <section id="about" className="my-20 flex flex-col py-12 gap-8 px-2 md:px-24 lg:px-36 xl:px-60 2xl:px-80 3xl:px-102">
                     <h1 className="font-playfair text-3xl text-blue-200">About</h1>
                     <div className="flex flex-col md:flex-row gap-16">
                         <div className="md:w-2/6">
@@ -153,7 +153,7 @@ function App() {
             </div>
 
             {/* Projects Section */}
-            <section id="projects" className="flex flex-col py-24 bg-gray-200 gap-8 px-6 md:px-24 lg:px-26 xl:px-36 2xl:px-80">
+            <section id="projects" className="flex flex-col py-24 bg-gray-200 gap-8 px-6 md:px-24 lg:px-26 xl:px-36 2xl:px-80 3xl:px-102">
                 <div className="text-gray-900 hover:text-gray-700 transition duration-200 ease-in-out">
                     <a className="flex flex-row float-left group" href="https://github.com/isakjensen?tab=repositories" target="_blank" rel="noreferrer">
                         <h1 className="font-playfair text-3xl">Projects</h1>
@@ -167,8 +167,12 @@ function App() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, incidunt quod illum deleniti ut ad similique blanditiis dicta et dolore distinctio temporibus repudiandae pariatur modi maxime. Doloremque enim libero beatae doloribus facilis? Non, asperiores corrupti! Facilis rem beatae omnis sapiente.</p>
                         </div>
                         <div className="flex flex-row gap-3 mt-auto">
-                            <div className="my-auto">
-                                <div className="text-sm text-gray-400">June 2021 – July 2021</div>
+                            <div className="flex w-full justify-between my-auto text-sm">
+                                <div className="text-gray-400 my-auto">June 2021 – July 2021</div>
+                                <div className="flex gap-6 mb-auto">
+                                <a href="/" className='text-github border border-gray-300 hover:bg-gray-300 px-3 py-1 rounded-md smooth-hover'>Github</a>
+                                    <a href="/" className='text-gray-100 bg-hl hover:bg-blue-500 px-3 py-1 rounded-md smooth-hover'>Preview</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -179,8 +183,12 @@ function App() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, incidunt quod illum deleniti ut ad similique blanditiis dicta et dolore distinctio temporibus repudiandae pariatur modi maxime. Doloremque enim libero beatae doloribus facilis? Non, asperiores corrupti! Facilis rem beatae omnis sapiente.</p>
                         </div>
                         <div className="flex flex-row gap-3 mt-auto">
-                            <div className="my-auto">
-                                <div className="text-sm text-gray-400">June 2021 – July 2021</div>
+                            <div className="flex w-full justify-between my-auto text-sm">
+                                <div className="text-gray-400 my-auto">June 2021 – July 2021</div>
+                                <div className="flex gap-6 mb-auto">
+                                <a href="/" className='text-github border border-gray-300 hover:bg-gray-300 px-3 py-1 rounded-md smooth-hover'>Github</a>
+                                    <a href="/" className='text-gray-100 bg-hl hover:bg-blue-500 px-3 py-1 rounded-md smooth-hover'>Preview</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -191,8 +199,12 @@ function App() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, incidunt quod illum deleniti ut ad similique blanditiis dicta et dolore distinctio temporibus repudiandae pariatur modi maxime. Doloremque enim libero beatae doloribus facilis? Non, asperiores corrupti! Facilis rem beatae omnis sapiente.</p>
                         </div>
                         <div className="flex flex-row gap-3 mt-auto">
-                            <div className="my-auto">
-                                <div className="text-sm text-gray-400">June 2021 – July 2021</div>
+                            <div className="flex w-full justify-between my-auto text-sm">
+                                <div className="text-gray-400 my-auto">June 2021 – July 2021</div>
+                                <div className="flex gap-6 mb-auto">
+                                <a href="/" className='text-github border border-gray-300 hover:bg-gray-300 px-3 py-1 rounded-md smooth-hover'>Github</a>
+                                    <a href="/" className='text-gray-100 bg-hl hover:bg-blue-500 px-3 py-1 rounded-md smooth-hover'>Preview</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -200,41 +212,41 @@ function App() {
             </section>
 
             {/* Contact Section */}
-            <section id="contact" className="flex flex-col p-24 gap-8 lg:gap-0 px-6 md:px-24 lg:px-26 xl:px-36 2xl:px-80">
+            <section id="contact" className="flex flex-col p-24 gap-8 lg:gap-0 px-6 md:px-24 lg:px-26 xl:px-36 2xl:px-80 3xl:px-102">
                 <div className="text-gray-900 hover:text-gray-700 transition duration-200 ease-in-out">
                     <a className="flex flex-row float-left group" href="https://linkedin.com/in/isakjensen" target="_blank" rel="noreferrer">
                         <h1 className="font-playfair text-3xl">Contact</h1>
                         <span className="opacity-0 group-hover:opacity-100 pl-2 mt-auto text-xl text-gray-700 transition duration-200 ease-in-out"><i className="fal fa-link"></i></span>
                     </a>
                 </div>
-                <div className="flex flex-col lg:flex-row gap-16 lg:gap-12">
+                <div className="flex flex-col lg:flex-row gap-16 lg:gap-20">
                     <div className="lg:w-1/3 text-gray-700 lg:py-12 rounded-lg flex flex-col gap-3 lg:gap-6">
                         <div className="flex flex-col gap-2 lg:gap-5">
                             <i className="fab fa-linkedin-in text-3xl text-linkedin"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, esse?</p>
+                            <p>Reach out to me on <span style={{ color: '#2867B2' }} class="font-medium">LinkedIn</span> about anything related to my projects or any hiring questions.</p>
                         </div>
                         <div className="text-sm text-gray-400">
-                            <a href="https://linkedin.com/in/isakjensen" target="_blank" rel="noreferrer">Contact me on LinkedIn</a>
+                            <a href="https://linkedin.com/in/isakjensen" class="hover:text-hl smooth-hover" target="_blank" rel="noreferrer">Contact me on LinkedIn</a>
                         </div>
                     </div>
                     
                     <div className="lg:w-1/3 text-gray-700 lg:py-12 rounded-lg flex flex-col gap-3 lg:gap-6">
                         <div className="flex flex-col gap-2 lg:gap-5">
                             <i className="fab fa-google text-3xl text-google"></i>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis repellendus porro quas.</p>
+                            <p>Feel free to send me an email at any time - about anything. I'll gladly respond and I'm interested in waht you have to bring!</p>
                         </div>
                         <div className="text-sm text-gray-400">
-                            <a href="mailto:isakludvigjensen@gmail.com" target="_blank" rel="noreferrer">isakludvigjensen@gmail.com</a>
+                            <a href="mailto:isakludvigjensen@gmail.com" class="hover:text-hl smooth-hover" target="_blank" rel="noreferrer">isakludvigjensen@gmail.com</a>
                         </div>
                     </div>
 
                     <div className="lg:w-1/3 text-gray-700 lg:py-12 rounded-lg flex flex-col gap-3 lg:gap-6">
                         <div className="flex flex-col gap-2 lg:gap-5">
                             <i className="fab fa-github text-3xl text-github"></i>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis repellendus porro quas.</p>
+                            <p>The majority of projects are publicly posted on my GitHub-page, feel free to check them out!</p>
                         </div>
                         <div className="text-sm text-gray-400">
-                            <a href="https://github.com/isakjensen" target="_blank" rel="noreferrer">Reach out to me on GitHub</a>
+                            <a href="https://github.com/isakjensen" class="hover:text-hl smooth-hover" target="_blank" rel="noreferrer">Reach out to me on GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -243,7 +255,7 @@ function App() {
         </main>
 
         {/* Footer */}
-        <footer className="text-center py-4 text-gray-400">Copyright © {new Date().getFullYear()} Isak Jensen</footer>
+        <footer className="text-center py-4 text-gray-400">Copyright © { new Date().getFullYear() } Isak Jensen</footer>
         
         {/* Detect screen size */}
         <div className="fixed bottom-2 left-2 bg-gray-800 text-gray-400 font-medium p-2 rounded-lg">

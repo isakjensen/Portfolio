@@ -9,6 +9,12 @@
 /* Icons */
 @import url('https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css');
 
+@layer components {
+    .smooth-hover {
+      @apply transition duration-200 ease-in-out;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }

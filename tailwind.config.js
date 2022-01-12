@@ -1,5 +1,8 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: {
+    enable: true,
+    content: ['./src/App.js'],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -17,6 +20,13 @@ module.exports = {
       },
       scale: {
         '1015': '1.015',
+      },
+      screens: {
+        '3xl': '2250px',
+      },
+      padding: {
+        '102': '30rem',
+        '112': '36rem',
       }
     },
   },
